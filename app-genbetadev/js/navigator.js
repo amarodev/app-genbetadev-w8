@@ -10,13 +10,10 @@
             function PageControlNavigator(element, options) {
                 this._element = element || document.createElement("div");
                 this._element.appendChild(this._createPageElement());
-
                 this.home = options.home;
                 this._lastViewstate = appView.value;
-
                 nav.onnavigated = this._navigated.bind(this);
                 window.onresize = this._resized.bind(this);
-
                 document.body.onkeyup = this._keyupHandler.bind(this);
                 document.body.onkeypress = this._keypressHandler.bind(this);
                 document.body.onmspointerup = this._mspointerupHandler.bind(this);
