@@ -3,4 +3,7 @@
   <PropertyGroup>
     <ReferenceCachePath>C:\Users\Marcos\AppData\Local\Temp\app-genbetadev_refcache</ReferenceCachePath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>AppHostSimulatorDebugger</DebuggerFlavor>
+  </PropertyGroup>
 </Project>

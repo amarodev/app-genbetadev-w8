@@ -128,8 +128,6 @@
     <None Include="RSSGenBDev_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\back.jpg" />
-    <Content Include="Assets\header.png" />
     <Content Include="Assets\img\bkg.jpg" />
     <Content Include="Assets\img\ideas-logo.png" />
     <Content Include="Assets\img\just-code.png" />

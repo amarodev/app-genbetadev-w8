@@ -16,7 +16,7 @@
         <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
         <x:String x:Key="AppName">Genbeta Dev Reader</x:String>
         <vm:RssMainViewModel x:Key="ViewModel" x:Name="ViewModel" 
-                             FeedUrlString="http://www.genbetadev.com/index.xml"/>
+                             FeedUrlString="http://feeds.weblogssl.com/genbetadev?format=xml"/>
         
         <Style x:Key="TextBlockStyle1" TargetType="TextBlock">
             <Setter Property="FontSize" Value="45"/>
@@ -69,11 +69,11 @@
         <TextBlock Grid.Column="2" Grid.Row="0" Text="{Binding ElementName=lvwBlogPosts,Path= SelectedValue.Title}"
             Style="{StaticResource Title-Post-Style}" />
 
-        <!--<WebView x:Name="wvBlogContent"
+        <WebView x:Name="wvBlogContent"
             Grid.Column="2" Grid.Row="1"
              vm:RssMainViewModel.HtmlString="{Binding ElementName=lvwBlogPosts, Path=SelectedValue.Content}"
             Visibility="Visible"
-            Style="{StaticResource WebView-Style}"  />-->
+            Style="{StaticResource WebView-Style}"  />
 
         <ListView x:Name="lvwBlogPosts" Grid.ColumnSpan="2" Grid.Row="1"
             Style="{StaticResource Lista-Posts-Style}" 
