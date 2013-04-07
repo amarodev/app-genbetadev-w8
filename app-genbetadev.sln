@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "app-genbetadev", "app-genbetadev\app-genbetadev.jsproj", "{02C91D46-75B6-457C-AA4A-AE077E7103AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSGenBDev", "RSSGenBDev\RSSGenBDev.csproj", "{36274249-C47B-44FC-B726-354A9B97CE0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app-genbetadev-cs", "RSSGenBDev\app-genbetadev-cs.csproj", "{36274249-C47B-44FC-B726-354A9B97CE0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
